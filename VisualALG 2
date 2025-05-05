@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2025
+Var
+// Seção de Declarações das variáveis 
+ A : real
+ B : real
+ C : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ A <- 5
+ B <- 8
+ C <- 10
+   escreval (A>B)
+   escreval (B<C)
+   escreval (A>C)
+   escreval (A+B>C)
+   escreval (A+C=A+A+A)
+   escreval (C= A+B)
+   escreval (C>=B^A)
+   escreval (C<=B^A)
+   escreval (B<=C%2)
+   escreval (1=C%2)
+
+Fimalgoritmo
