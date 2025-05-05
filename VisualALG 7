@@ -1,0 +1,13 @@
+Algoritmo "semnome"
+
+Var
+s,a,f,z:real
+Inicio
+escreval ("Qual o Salário atual do funcionário")
+leia(s)
+escreval ("Qual a porcentagem do aumento do funcionário")
+leia(a)
+z <- (a / 100 * s)
+f <- (z + s)
+escreval ("Depois do aumento o salário do funcionário foi para:",f)
+Fimalgoritmo
