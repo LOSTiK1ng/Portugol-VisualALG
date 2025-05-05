@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2025
+Var
+// Seção de Declarações das variáveis 
+nota:inteiro
+
+notaR:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ notaR <- 10
+ 
+ escreval("Escreva o valor de sua nota:")
+ 
+ leia (nota)
+ 
+ se (nota >= 7) entao
+ 
+    escreval ("Parabéns! Continue assim!")
+
+ se (nota = notaR) entao
+ 
+    escreval ("Parabéns! Voce tirou a maior nota!")
+    
+ se (nota < 7) entao
+ 
+      escreval ("Voce precisa estudar mais!")
+      
+ senao
+ 
+      escreval ("Coloque uma nota valida ata 10")
+      
+      fimse
+
+
+
+
+
+Fimalgoritmo
