@@ -1,0 +1,17 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2025
+Var
+// Seção de Declarações das variáveis 
+valor : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval("Digite um valor:?")
+                  leia(valor)
+se (valor < 10) entao
+                   escreval("O valor digitado e menor que 10")
+fimse
+Fimalgoritmo
