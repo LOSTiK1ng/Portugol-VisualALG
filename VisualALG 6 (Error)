@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2025
+Var
+// Seção de Declarações das variáveis 
+r: inteiro
+o: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Digite o valor que voce queira converter:")
+leia(r)
+escreval ("Oque voce quer converter?")
+escreval ("1.Dollar para o Real?")
+escreval ("2.Real para Dollar?")
+leia (o)
+escolha (o)
+        caso 1
+           escreval ("O valor convertido fica em", r / 5.69)
+        caso 2
+           escreval ("O valor convertido fica em", r * 5.69)
+        caso 3
+           escreval ("Voce digitou uma opção inválida")
+fimescolha
+Fimalgoritmo
