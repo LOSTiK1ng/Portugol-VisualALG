@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/05/2025
+Var
+// Seção de Declarações das variáveis 
+v1,v2:real
+OPCAO:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval ("Digite o valor 1 e o valor 2")
+ leia (v1,v2)
+ escreval ("Escolha o que voce deseja calcular")
+ escreval ("1. Somar")
+ escreval ("2. Subtração")
+ leia(OPCAO)
+ escolha (OPCAO)
+         caso 1
+              escreval ("O resultado da Soma é:",v1+v2)
+         caso 2
+              escreval ("O resultado da Subtração é:",v1-v2)
+         outrocaso
+              escreval ("Voce digitou uma opção inválida")
+  fimescolha
+
+Fimalgoritmo
